@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7d99bab726f0403f",
+        "id": "014534ac3463fb7e",
         "type": "tabs",
         "children": [
           {
-            "id": "945b978c13b47b74",
+            "id": "9d18e46b87bf2961",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Installation necessaire.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Installation necessaire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Installation necessaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,6 +140,8 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "945b978c13b47b74",
-  "lastOpenFiles": []
+  "active": "d43632470484868b",
+  "lastOpenFiles": [
+    "readme.md"
+  ]
 }
