@@ -1,0 +1,9 @@
+Pour executer ce projet: 
+
+----Aller dans le fichier "persistance.xml" puis décommenter la première ligne pour que la creation des tables soient éffective.
+
+----Puis  dans "Java Resources/src/main/java/hello/
+
+(il y a un fichier insert.sql pour inserrer les rôles)
+
+--Moi j'ai implementer la relation OneToMany

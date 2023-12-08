@@ -1,0 +1,44 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0">
+  
+  <servlet>
+	<servlet-name>MyServlet</servlet-name>
+<!-- 	Le nom de la classe implementant la servlet(précédé du nom du package)-->	
+	<servlet-class>hello.HelloServlet</servlet-class>
+  </servlet>
+  
+  <!-- l'assissiation de la sservlet avec un motif d'URL -->
+  <servlet-mapping>
+  	<servlet-name>MyServlet</servlet-name>
+  	<url-pattern>/ma_servlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+<!--   <servlet>
+	<servlet-name>Formualaire</servlet-name>
+	Le nom de la classe implementant la servlet(précédé du nom du package)	
+	<servlet-class>hello.FormualaireServlet</servlet-class>
+  </servlet>
+  
+  l'assissiation de la sservlet avec un motif d'URL
+  <servlet-mapping>
+  
+  	<servlet-name>Formualaire</servlet-name>
+  	
+  	<url-pattern>/ma_formualaire</url-pattern>
+  
+  </servlet-mapping>
+   -->
+<!--    
+	   
+	<resource-ref>
+	  <res-ref-name>nomDeLaDataSource</res-ref-name>
+	  <res-type>javax.sql.DataSource</res-type>
+	</resource-ref> -->
+  
+  
+
+</web-app>
+
