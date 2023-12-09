@@ -11,8 +11,12 @@
             "id": "9d18e46b87bf2961",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Readme.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Installation necessaire.md"
+                "file": "Readme.md"
               }
             }
           }
@@ -140,7 +146,7 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "d43632470484868b",
+  "active": "9d18e46b87bf2961",
   "lastOpenFiles": [
     "Readme.md",
     "readme.md"

@@ -43,7 +43,7 @@ public class User {
     private String contact;
     
     @Basic
-    @Column(name = "username", length = 50)
+    @Column(name = "username", length = 50, unique=true)
     private String username;
     
     @Transient
