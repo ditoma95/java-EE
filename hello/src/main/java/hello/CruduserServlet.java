@@ -37,7 +37,8 @@ public class CruduserServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		List<Role> roles = null;
-		roles = entityManager.createNativeQuery("(select * from roles) except (select roles.* from roles, users_roles where roles.id_role = users_roles.roles_id_role)", Role.class).getResultList();
+//		roles = entityManager.createNativeQuery("(select * from roles) except (select roles.* from roles, users_roles where roles.id_role = users_roles.roles_id_role)", Role.class).getResultList();
+		roles = entityManager.createNativeQuery("select * from roles", Role.class).getResultList();
 		request.setAttribute("Listesroles",  roles);
 		
 		this.getServletContext().getRequestDispatcher("/formulaire.jsp").forward(request, response);
